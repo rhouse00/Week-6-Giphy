@@ -1,0 +1,31 @@
+body {
+	background-color: #f0f0f0;
+}
+.btn, .btn:visited {
+	border-color: #e3e0cc;
+	background-color: #e3e0cc;
+}
+/*.btn:visited{
+	color: #e3e0cc;
+}
+*/
+.btn:hover, .btn:active, .btn:focus {
+	background-color: #9fa9a3;
+}
+
+.spacing {
+		display: inline-block;
+		margin-right: 10px;
+		padding-top: 3px;
+		padding-bottom: 7px;
+}
+
+.panel-body {
+	background-color: #c5d5c5;
+}
+.well {
+	background-color: #c5d5c5;
+}
+.panel-default>.panel-heading {
+	background-color: #e3e0cc;
+}
