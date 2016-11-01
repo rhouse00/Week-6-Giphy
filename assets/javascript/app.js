@@ -1,5 +1,5 @@
 var topics =["bears", "huskies","cannonballs","charlie day","ac slater","mom jeans", "dad jokes", "puns", "pugs", "30 rock"];
-		var queryUrl = "http://api.giphy.com/v1/gifs/search?q=";
+		var queryUrl = "https://api.giphy.com/v1/gifs/search?q=";
 		var apiKey = "&api_key=dc6zaTOxFJmzC";
 		var limit = "&limit=10"
 		
@@ -35,7 +35,7 @@ $(document).ready(function(){
 				var imageDiv = $("<div>");
 				imageDiv.addClass("spacing");
 				var newImg = $("<img>");
-				newImg.addClass("img-thumbnail btn-success");
+				newImg.addClass("img-thumbnail");
 				newImg.attr("data-animate", results[i].images.fixed_height.url);
 				newImg.attr("data-still", results[i].images.fixed_height_still.url);
 				newImg.attr("data-state", "still");
