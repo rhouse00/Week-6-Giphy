@@ -4,11 +4,9 @@ body {
 .btn, .btn:visited {
 	border-color: #e3e0cc;
 	background-color: #e3e0cc;
+	box-shadow: 2px 2px #aaaaaa;
 }
-/*.btn:visited{
-	color: #e3e0cc;
-}
-*/
+
 .btn:hover, .btn:active, .btn:focus {
 	background-color: #9fa9a3;
 }
@@ -20,12 +18,14 @@ body {
 		padding-bottom: 7px;
 }
 
-.panel-body {
+.panel-body, .well {
 	background-color: #c5d5c5;
 }
-.well {
-	background-color: #c5d5c5;
-}
+
 .panel-default>.panel-heading {
 	background-color: #e3e0cc;
+}
+#searchBar {
+	margin-bottom: 10px;
+	background-color: #f0f0f0;
 }
