@@ -7,8 +7,9 @@ body {
 	box-shadow: 2px 2px #aaaaaa;
 }
 
-.btn:hover, .btn:active, .btn:focus {
+.btn:hover, .btn:focus, .btn:active {
 	background-color: #9fa9a3;
+	border-color: #9fa9a3;
 }
 
 .spacing {
